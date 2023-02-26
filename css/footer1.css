@@ -1,0 +1,66 @@
+.footerMenu {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .fList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .buttonKlas {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .buttonKlas:hover {
+    background-color: #333;
+  }
+  
+  .fMenuTitle {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .fListItem {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #aboutUs {
+    background-image: url("about-us-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
